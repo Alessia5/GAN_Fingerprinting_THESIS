@@ -42,7 +42,7 @@ import PreDownsampling_residual
 import PreDownsampling
 import PostPooling
 import Autoencoder
-
+print('ciao')
 
 print('Data set Training elements:')
 print('ATTGAN \t' + str(len(os.listdir(config.DS_Path + 'ATTGAN'))))
